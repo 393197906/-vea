@@ -1,0 +1,40 @@
+{
+  "name": "@vea/core",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "mr.xie <393197906@qq.com>",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "haha": "./src/bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/393197906/-vea.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/393197906/-vea/issues"
+  },
+  "homepage": "https://github.com/393197906/-vea#readme",
+  "dependencies": {
+    "@vea/plugin-help": "^1.0.0",
+    "cfonts": "^2.4.3",
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.11",
+    "portfinder": "^1.0.20",
+    "react-dev-utils": "^9.0.0",
+    "webpack": "^4.30.0",
+    "webpack-chain": "^6.0.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
